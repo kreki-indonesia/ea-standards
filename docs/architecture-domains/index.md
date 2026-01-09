@@ -2,7 +2,7 @@
 title: "Enterprise Architecture KREKI"
 description: "Kerangka Enterprise Architecture sebagai rumah tumbuh untuk ekosistem digital KREKI"
 category: "enterprise-architecture"
-last_updated: 2025-01-09
+last_updated: 2026-01-10
 ---
 
 # Enterprise Architecture KREKI
@@ -239,12 +239,12 @@ EA KREKI terintegrasi dengan dokumentasi lain:
 
 | EA Domain | Dokumentasi Terkait |
 |-----------|-------------------|
-| Business Architecture | [About KREKI](../about/), [Volunteer Program](../about/volunteer-program.md) |
-| Data Architecture | [System Architecture](../architecture/system-architecture.md) |
-| Application Architecture | [Microservices Design](../architecture/microservices-design.md) |
-| Technology Architecture | [System Architecture](../architecture/system-architecture.md), [Engineering Handbook](../../engineering/handbook.md) |
-| Security Architecture | [IT Governance](../governance/it-governance.md) |
-| Integration Architecture | [Stakeholder Integration](../governance/stakeholder-integration.md), [API Reference](../architecture/api-reference.md) |
+| Business Architecture | [Organization](../organization.md), [Volunteer Program](../volunteer-program.md) |
+| Data Architecture | [System Architecture](../system-architecture.md) |
+| Application Architecture | [Microservices Design](../microservices-design.md) |
+| Technology Architecture | [System Architecture](../system-architecture.md), [Engineering Handbook](../handbook.md) |
+| Security Architecture | [IT Governance](../it-governance.md) |
+| Integration Architecture | [Stakeholder Integration](../stakeholder-integration.md), [API Reference](../api-reference.md) |
 
 ---
 
@@ -298,4 +298,4 @@ Untuk pertanyaan seputar EA KREKI:
 
 ---
 
-*Enterprise Framework KREKI | Version 1.0 | Last Updated: 2025-01-08*
+*Enterprise Framework KREKI | Version 2.0.0 | Last Updated: 2026-01-10*
