@@ -2,7 +2,7 @@
 title: "EA Roadmap KREKI"
 description: "Peta jalan evolusi Enterprise Architecture KREKI"
 category: "enterprise-architecture"
-last_updated: 2025-01-08
+last_updated: 2026-01-08
 ---
 
 # EA Roadmap KREKI
@@ -400,7 +400,7 @@ gantt
 
 - [EA Governance](./ea-governance.md) - EA management processes
 - [Innovation Framework](./innovation-framework.md) - Technology radar and pilots
-- [IT Governance](../governance/it-governance.md) - Implementation governance
+- [IT Governance](../it-governance.md) - Implementation governance
 
 ---
 

@@ -2,7 +2,7 @@
 title: "Security Architecture KREKI"
 description: "Security domains, controls, dan compliance KREKI"
 category: "enterprise-architecture"
-last_updated: 2025-01-08
+last_updated: 2026-01-08
 ---
 
 # Security Architecture KREKI
@@ -445,8 +445,8 @@ Data Zone (Databases)
 
 ## Related Documentation
 
-- [IT Governance](../governance/it-governance.md) - Security policies and procedures
-- [Incident Management](../governance/incident-management.md) - Incident response
+- [IT Governance](../it-governance.md) - Security policies and procedures
+- [Incident Management](../incident-management.md) - Incident response
 - [Data Architecture](./data-architecture.md) - Data privacy and classification
 
 ---

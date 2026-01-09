@@ -2,7 +2,7 @@
 title: "Program Relawan & Pelatihan"
 description: "Kurikulum BHD, jalur progresi relawan, dan standar sertifikasi"
 category: "about"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # Program Relawan & Pelatihan
@@ -364,9 +364,9 @@ graph TD
 
 ## Related Documentation
 
-- [Contribution Guide](../contributing/contribution-guide.md) - Cara menjadi relawan
-- [Emergency Response Playbook](../governance/emergency-playbook.md) - Peran relawan dalam emergency
-- [Microservices Design](../architecture/microservices-design.md) - LMS service specifications
+- [Contribution Guide](../contribution-guide.md) - Cara menjadi relawan
+- [Emergency Response Playbook](../emergency-playbook.md) - Peran relawan dalam emergency
+- [Microservices Design](../microservices-design.md) - LMS service specifications
 
 ---
 

@@ -2,7 +2,7 @@
 title: "Strategi Aksesibilitas & Jangkauan"
 description: "Strategi aksesibilitas untuk seluruh Indonesia dengan pertimbangan konektivitas dan multibahasa"
 category: "architecture"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # Strategi Aksesibilitas & Jangkauan
@@ -396,7 +396,7 @@ Publish to App (via CMS)
 
 - [System Architecture](./system-architecture.md) - Technical design considerations
 - [Microservices Design](./microservices-design.md) - Service specifications
-- [Emergency Response Playbook](../governance/emergency-playbook.md) - Operational procedures
+- [Emergency Response Playbook](../emergency-playbook.md) - Operational procedures
 
 ---
 

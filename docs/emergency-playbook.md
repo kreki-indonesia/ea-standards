@@ -2,7 +2,7 @@
 title: "Emergency Response Playbook"
 description: "Complete workflow and procedures for emergency response operations"
 category: "governance"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # Emergency Response Playbook
@@ -339,9 +339,9 @@ Is breathing improving?
 
 ## Related Documentation
 
-- [Incident Management](../governance/incident-management.md) - Technical incident procedures
-- [Microservices Design](../architecture/microservices-design.md) - Emergency Core service specifications
-- [Contributing Guide](../contributing/contribution-guide.md) - Volunteer certification requirements
+- [Incident Management](../incident-management.md) - Technical incident procedures
+- [Microservices Design](../microservices-design.md) - Emergency Core service specifications
+- [Contributing Guide](../contribution-guide.md) - Volunteer certification requirements
 
 ---
 

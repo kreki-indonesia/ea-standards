@@ -2,7 +2,7 @@
 title: "Model Keberlanjutan Organisasi"
 description: "Strategi pendanaan, kemitraan, dan keberlanjutan jangka panjang KREKI"
 category: "about"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # Model Keberlanjutan Organisasi
@@ -348,8 +348,8 @@ Dokumen ini menjelaskan strategi keberlanjutan KREKI sebagai organisasi nirlaba 
 ## Related Documentation
 
 - [Organizational Profile](./organization.md) - Legal identity dan values
-- [Contribution Guide](../contributing/contribution-guide.md) - Volunteering guidelines
-- [Impact Measurement](../governance/it-governance.md) - Social impact KPIs
+- [Contribution Guide](../contribution-guide.md) - Volunteering guidelines
+- [Impact Measurement](../it-governance.md) - Social impact KPIs
 
 ---
 

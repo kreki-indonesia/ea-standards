@@ -2,7 +2,7 @@
 title: "KREKI Engineering Handbook"
 description: "Technical ecosystem blueprint and engineering practices"
 category: "engineering"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # KREKI Engineering Handbook
@@ -72,9 +72,9 @@ Data bridge to **SATUSEHAT (Kemenkes)** and PSC 119.
 
 If you are a developer, university, or technology company wanting to contribute (CSR):
 
-- **Email:** it-support@kreki.or.id
-- **Security Issues:** security@kreki.or.id
-- **General:** sekretariat.kreki@gmail.com
+- **Email:** it-support@KREKI.or.id
+- **Security Issues:** security@KREKI.or.id
+- **General:** sekretariat.KREKI@gmail.com
 
 ---
 

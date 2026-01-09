@@ -2,7 +2,7 @@
 title: "Code Review Standards"
 description: "Code review criteria and quality standards for KREKI projects"
 category: "contributing"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # Code Review Standards

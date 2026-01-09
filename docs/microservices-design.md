@@ -2,7 +2,7 @@
 title: "Microservices Design"
 description: "Detailed specifications for each microservice in KREKI system"
 category: "architecture"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # Microservices Design
@@ -172,10 +172,10 @@ Manage training modules, assessments, and certifications.
   certificate_id: "CERT-2025-001234",
   user_name: "Dr. John Doe",
   course_name: "Bantuan Hidup Dasar (BHD)",
-  completion_date: "2025-01-07",
+  completion_date: "2026-01-10",
   instructor_name: "Dr. Jane Smith",
   valid_until: "2027-01-07",
-  qr_code: "https://lms.kreki.id/verify/CERT-2025-001234"
+  qr_code: "https://lms.KREKI.id/verify/CERT-2025-001234"
 }
 ```
 
@@ -233,8 +233,8 @@ Maintain backward compatibility by versioning the bridge API.
 ## Related Documentation
 
 - [System Architecture](./system-architecture.md) - High-level architecture
-- [SLA & SLO Definition](../governance/sla-slo.md) - Service tier requirements
-- [Incident Management](../governance/incident-management.md) - Emergency procedures
+- [SLA & SLO Definition](../sla-slo.md) - Service tier requirements
+- [Incident Management](../incident-management.md) - Emergency procedures
 
 ---
 

@@ -2,7 +2,7 @@
 title: "Integrasi Stakeholder Eksternal"
 description: "Protokol integrasi dengan PSC 119, rumah sakit, dan layanan darurat profesional"
 category: "governance"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # Integrasi Stakeholder Eksternal
@@ -78,8 +78,8 @@ POST https://api.psc119.go.id/v1/emergency-alert
   "victim_count": 1,
   "volunteer_on_scene": true,
   "requested_resources": ["ambulance", "paramedic"],
-  "timestamp": "2025-01-07T10:30:00Z",
-  "callback_url": "https://api.kreki.or.id/callback/psc119/{emergency_id}"
+  "timestamp": "2026-01-10T10:30:00Z",
+  "callback_url": "https://api.KREKI.or.id/callback/psc119/{emergency_id}"
 }
 ```
 
@@ -87,7 +87,7 @@ POST https://api.psc119.go.id/v1/emergency-alert
 ```json
 {
   "status": "received",
-  "psc_ticket_id": "PSC-2025-01-07-001234",
+  "psc_ticket_id": "PSC-2026-01-10-001234",
   "estimated_arrival": "15 minutes",
   "dispatched_resources": [
     {
@@ -181,7 +181,7 @@ KREKI menggunakan **FHIR R4** (Fast Healthcare Interoperability Resources) untuk
 ```json
 {
   "resourceType": "Patient",
-  "id": "patient-kreki-001",
+  "id": "patient-KREKI-001",
   "identifier": [
     {
       "system": "https://satusehat.kemkes.go.id/id/pasien",
@@ -204,7 +204,7 @@ KREKI menggunakan **FHIR R4** (Fast Healthcare Interoperability Resources) untuk
 ```json
 {
   "resourceType": "Encounter",
-  "id": "encounter-kreki-001",
+  "id": "encounter-KREKI-001",
   "status": "in-progress",
   "class": {
     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -212,10 +212,10 @@ KREKI menggunakan **FHIR R4** (Fast Healthcare Interoperability Resources) untuk
     "display": "emergency"
   },
   "subject": {
-    "reference": "Patient/patient-kreki-001"
+    "reference": "Patient/patient-KREKI-001"
   },
   "period": {
-    "start": "2025-01-07T10:30:00+07:00"
+    "start": "2026-01-10T10:30:00+07:00"
   },
   "location": [{
     "location": {
@@ -240,7 +240,7 @@ KREKI menggunakan **FHIR R4** (Fast Healthcare Interoperability Resources) untuk
     }]
   },
   "subject": {
-    "reference": "Patient/patient-kreki-001"
+    "reference": "Patient/patient-KREKI-001"
   },
   "valueQuantity": {
     "value": 120,
@@ -255,9 +255,9 @@ KREKI menggunakan **FHIR R4** (Fast Healthcare Interoperability Resources) untuk
 ```json
 {
   "resourceType": "Practitioner",
-  "id": "practitioner-kreki-001",
+  "id": "practitioner-KREKI-001",
   "identifier": [{
-    "system": "https://kreki.or.id/id/relawan",
+    "system": "https://KREKI.or.id/id/relawan",
     "value": "KREKI-2023-001"
   }],
   "name": [{
@@ -362,7 +362,7 @@ Data yang dikirim:
   "meta": {
     "source": "KREKI-HELP119",
     "version": "1.0.0",
-    "timestamp": "2025-01-07T10:30:00Z",
+    "timestamp": "2026-01-10T10:30:00Z",
     "security": [{
       "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
       "code": "N",
@@ -402,7 +402,7 @@ Data yang dikirim:
 **Contoh Format Log:**
 ```json
 {
-  "timestamp": "2025-01-07T10:30:00Z",
+  "timestamp": "2026-01-10T10:30:00Z",
   "direction": "outbound",
   "system": "PSC-119",
   "operation": "POST /v1/emergency-alert",
@@ -462,7 +462,7 @@ Data yang dikirim:
 ## Related Documentation
 
 - [Emergency Response Playbook](./emergency-playbook.md) - Workflow respon darurat lengkap
-- [Microservices Design](../architecture/microservices-design.md) - SATUSEHAT Bridge service specifications
+- [Microservices Design](../microservices-design.md) - SATUSEHAT Bridge service specifications
 - [Incident Management](./incident-management.md) - Prosedur insiden teknis
 
 ---

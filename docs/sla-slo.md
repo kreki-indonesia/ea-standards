@@ -2,7 +2,7 @@
 title: "SLA & SLO Definition"
 description: "Service level agreements and objectives for KREKI services"
 category: "governance"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # SLA & SLO Definition
@@ -231,7 +231,7 @@ If an SLO is breached:
 
 - [IT Governance Framework](./it-governance.md) - Complete governance framework
 - [Incident Management](./incident-management.md) - Incident procedures
-- [System Architecture](../architecture/system-architecture.md) - Service architecture
+- [System Architecture](../system-architecture.md) - Service architecture
 
 ---
 

@@ -2,7 +2,7 @@
 title: "API Reference"
 description: "Unified API documentation for KREKI ecosystem services"
 category: "architecture"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # API Reference
@@ -85,7 +85,7 @@ To maintain backward compatibility, all APIs must be versioned in the URL path.
 
 ## Auth Service API
 
-**Base URL:** `https://api.kreki.id/api/auth`
+**Base URL:** `https://api.KREKI.id/api/auth`
 
 ### Register User
 
@@ -143,7 +143,7 @@ Retrieve the currently logged-in user's profile.
 
 ## Emergency Core Service API
 
-**Base URL:** `https://api.kreki.id/api/emergency`
+**Base URL:** `https://api.KREKI.id/api/emergency`
 **SLA Target:** < 500ms response time (P95)
 
 ### Trigger Panic Button
@@ -191,7 +191,7 @@ Volunteer accepts an emergency assignment.
 
 ## LMS (Learning Management System) API
 
-**Base URL:** `https://api.kreki.id/api/lms`
+**Base URL:** `https://api.KREKI.id/api/lms`
 
 ### List Courses
 
@@ -239,7 +239,7 @@ Retrieve digital certificate data for a completed course.
   "user_name": "Dr. John Doe",
   "course_name": "Bantuan Hidup Dasar (BHD)",
   "valid_until": "2027-01-07",
-  "qr_code_url": "https://lms.kreki.id/verify/CERT-2025-001234"
+  "qr_code_url": "https://lms.KREKI.id/verify/CERT-2025-001234"
 }
 ```
 
@@ -289,7 +289,7 @@ For detailed database schemas and service-specific data models, see [Microservic
 
 ### Documentation Maintenance
 
-- Every new endpoint **MUST** include Swagger/OpenAPI annotations in the code before merging (as per [Contribution Guide](../contributing/contribution-guide.md))
+- Every new endpoint **MUST** include Swagger/OpenAPI annotations in the code before merging (as per [Contribution Guide](../contribution-guide.md))
 - **Handover Standard:** No feature is considered "Done" until its API documentation is updated
 
 ---
@@ -298,7 +298,7 @@ For detailed database schemas and service-specific data models, see [Microservic
 
 - [Microservices Design](./microservices-design.md) - Service architecture and data models
 - [System Architecture](./system-architecture.md) - High-level system design
-- [Contribution Guide](../contributing/contribution-guide.md) - Development guidelines
+- [Contribution Guide](../contribution-guide.md) - Development guidelines
 
 ---
 

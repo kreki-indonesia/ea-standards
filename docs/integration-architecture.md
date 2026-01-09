@@ -2,7 +2,7 @@
 title: "Integration Architecture KREKI"
 description: "Integration patterns, standards, dan catalog KREKI"
 category: "enterprise-architecture"
-last_updated: 2025-01-08
+last_updated: 2026-01-08
 ---
 
 # Integration Architecture KREKI
@@ -104,7 +104,7 @@ Examples:
 {
   "event_id": "evt_1234567890",
   "event_type": "emergency.created",
-  "timestamp": "2025-01-08T10:30:00Z",
+  "timestamp": "2026-01-10T10:30:00Z",
   "data": {
     "emergency_id": "550e8400-e29b-41d4-a716-446655440000",
     "location": {...},
@@ -225,7 +225,7 @@ PSC 119 → KREKI:
 // Emergency Notification
 {
   "emergency_id": "550e8400-e29b-41d4-a716-446655440000",
-  "reported_at": "2025-01-08T10:30:00Z",
+  "reported_at": "2026-01-10T10:30:00Z",
   "location": {
     "latitude": -6.2088,
     "longitude": 106.8456,
@@ -349,7 +349,7 @@ DELETE /api/v1/certificates/{id}
   "error": null,
   "meta": {
     "request_id": "req_1234567890",
-    "timestamp": "2025-01-08T10:30:00Z",
+    "timestamp": "2026-01-10T10:30:00Z",
     "version": "1.0.0"
   }
 }
@@ -386,7 +386,7 @@ DELETE /api/v1/certificates/{id}
   },
   "meta": {
     "request_id": "req_1234567890",
-    "timestamp": "2025-01-08T10:30:00Z"
+    "timestamp": "2026-01-10T10:30:00Z"
   }
 }
 ```
@@ -521,7 +521,7 @@ X-RateLimit-Reset: 1641632400
 **Log Format:**
 ```json
 {
-  "timestamp": "2025-01-08T10:30:00Z",
+  "timestamp": "2026-01-10T10:30:00Z",
   "level": "INFO",
   "service": "emergency-service",
   "event": "api.request",
@@ -538,10 +538,10 @@ X-RateLimit-Reset: 1641632400
 
 ## Related Documentation
 
-- [API Reference](../architecture/api-reference.md) - Detailed API documentation
-- [Microservices Design](../architecture/microservices-design.md) - Service endpoints
+- [API Reference](../api-reference.md) - Detailed API documentation
+- [Microservices Design](../microservices-design.md) - Service endpoints
 - [Security Architecture](./security-architecture.md) - API security
-- [Stakeholder Integration](../governance/stakeholder-integration.md) - External protocols
+- [Stakeholder Integration](../stakeholder-integration.md) - External protocols
 
 ---
 

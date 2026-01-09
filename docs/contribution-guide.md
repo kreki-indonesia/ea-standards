@@ -2,7 +2,7 @@
 title: "Contribution Guide"
 description: "Comprehensive guide for contributing to KREKI digital ecosystem"
 category: "contributing"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # Contribution Guide & Development SOP
@@ -24,8 +24,8 @@ We use the **Feature Branch Workflow** model:
 ### 1. Clone the assigned service repository
 
 ```bash
-git clone https://github.com/kreki/kreki-auth-service.git
-cd kreki-auth-service
+git clone https://github.com/KREKI/kreki-auth-service.git
+cd KREKI-auth-service
 ```
 
 ### 2. Create a new branch from main or development
@@ -253,7 +253,7 @@ describe('Emergency Service', () => {
 ## Related Documentation
 
 - [Code Review Standards](./code-review-standards.md) - Review criteria
-- [System Architecture](../architecture/system-architecture.md) - Technical design
+- [System Architecture](../system-architecture.md) - Technical design
 - [Engineering Handbook](../../engineering/handbook.md) - Engineering practices
 
 ---

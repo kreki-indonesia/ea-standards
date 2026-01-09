@@ -2,7 +2,7 @@
 title: "Business Architecture KREKI"
 description: "Kapabilitas bisnis, value streams, dan stakeholder mapping KREKI"
 category: "enterprise-architecture"
-last_updated: 2025-01-09
+last_updated: 2026-01-09
 ---
 
 # Business Architecture KREKI
@@ -336,10 +336,10 @@ Mengukur efektivitas pelaksanaan program dan proses respons di lapangan.
 
 ## Related Documentation
 
-- [About KREKI](../about/index.md) - Profil organisasi lengkap
-- [Volunteer Program](../about/volunteer-program.md) - Program relawan detail
-- [Stakeholder Integration](../governance/stakeholder-integration.md) - Protokol integrasi eksternal
-- [IT Governance](../governance/it-governance.md) - Tata kelola IT
+- [About KREKI](../organization.md) - Profil organisasi lengkap
+- [Volunteer Program](../volunteer-program.md) - Program relawan detail
+- [Stakeholder Integration](../stakeholder-integration.md) - Protokol integrasi eksternal
+- [IT Governance](../it-governance.md) - Tata kelola IT
 - [Risk Management](./risk-management.md) - Enterprise risk register dan mitigasi
 
 ---

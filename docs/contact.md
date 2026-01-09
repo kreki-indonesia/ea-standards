@@ -2,7 +2,7 @@
 title: "Kontak & Mitra"
 description: "Informasi kontak dan daftar mitra strategis KREKI"
 category: "about"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # Kontak & Mitra
@@ -13,17 +13,17 @@ last_updated: 2025-01-07
 
 | Jenis | Kontak |
 |:------|:--------|
-| **Sekretariat** | sekretariat.kreki@gmail.com |
+| **Sekretariat** | sekretariat.KREKI@gmail.com |
 | **Hotline Darurat** | 08888-119-119 (Ambulans & Gawat Darurat) |
-| **Website** | [https://kreki.id](https://kreki.id) |
+| **Website** | [https://KREKI.id](https://KREKI.id) |
 
 ### IT & Development
 
 | Jenis | Kontak |
 |:------|:--------|
-| **IT Support** | it-support@kreki.or.id |
-| **Security Issues** | security@kreki.or.id |
-| **GitHub** | [github.com/kreki](https://github.com/kreki) |
+| **IT Support** | it-support@KREKI.or.id |
+| **Security Issues** | security@KREKI.or.id |
+| **GitHub** | [github.com/KREKI](https://github.com/KREKI) |
 
 ## Mitra Strategis
 
@@ -90,14 +90,14 @@ Kami terbuka untuk kemitraan dengan:
 - Training relawan medis
 - Data sharing untuk research
 
-Untuk diskusi kemitraan, hubungi: **sekretariat.kreki@gmail.com**
+Untuk diskusi kemitraan, hubungi: **sekretariat.KREKI@gmail.com**
 
 ## Lapor Isu Keamanan
 
 Jika menemukan kerentanan keamanan di sistem kami:
 
 1. Jangan eksploit publik
-2. Email detail ke: **security@kreki.or.id**
+2. Email detail ke: **security@KREKI.or.id**
 3. Kami akan merespon dalam 48 jam
 4. Credit akan diberikan untuk responsible disclosure
 
@@ -105,7 +105,7 @@ Jika menemukan kerentanan keamanan di sistem kami:
 
 Untuk inquiries media atau publikasi:
 
-- Email: **sekretariat.kreki@gmail.com**
+- Email: **sekretariat.KREKI@gmail.com**
 - Subject: `[MEDIA] Nama media - Topik`
 
 ---

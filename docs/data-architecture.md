@@ -2,7 +2,7 @@
 title: "Data Architecture KREKI"
 description: "Data domains, governance, dan lifecycle management KREKI"
 category: "enterprise-architecture"
-last_updated: 2025-01-08
+last_updated: 2026-01-08
 ---
 
 # Data Architecture KREKI
@@ -515,10 +515,10 @@ sequenceDiagram
 
 ## Related Documentation
 
-- [System Architecture](../architecture/system-architecture.md) - Database per service pattern
-- [Microservices Design](../architecture/microservices-design.md) - Data models per service
+- [System Architecture](../system-architecture.md) - Database per service pattern
+- [Microservices Design](../microservices-design.md) - Data models per service
 - [Security Architecture](./security-architecture.md) - Data encryption & access control
-- [IT Governance](../governance/it-governance.md) - Data governance framework
+- [IT Governance](../it-governance.md) - Data governance framework
 
 ---
 

@@ -2,7 +2,7 @@
 title: "IT Governance Framework"
 description: "Complete IT governance framework for KREKI information systems"
 category: "governance"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # IT Governance Framework
@@ -450,7 +450,7 @@ docs/
 
 - [SLA/SLO Definition](./sla-slo.md) - Detailed service level definitions
 - [Incident Management](./incident-management.md) - Incident response procedures
-- [System Architecture](../architecture/system-architecture.md) - Technical architecture
+- [System Architecture](../system-architecture.md) - Technical architecture
 
 ---
 

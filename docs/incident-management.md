@@ -2,7 +2,7 @@
 title: "Incident Management"
 description: "Incident response procedures and severity classifications"
 category: "governance"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # Incident Management
@@ -262,7 +262,7 @@ Use the **5 Whys** technique:
 
 ### External Communication
 
-**Status Page:** `status.kreki.id` (to be set up)
+**Status Page:** `status.KREKI.id` (to be set up)
 
 **When to Notify Public:**
 | Severity | Public Notification |
@@ -344,7 +344,7 @@ Review incident trends for:
 
 - [IT Governance Framework](./it-governance.md) - Governance structure
 - [SLA/SLO Definition](./sla-slo.md) - Service level targets
-- [System Architecture](../architecture/system-architecture.md) - System design
+- [System Architecture](../system-architecture.md) - System design
 
 ---
 

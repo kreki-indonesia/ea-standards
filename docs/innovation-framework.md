@@ -2,7 +2,7 @@
 title: "Innovation Framework KREKI"
 description: "Technology radar, emerging tech assessment, dan inovasi KREKI"
 category: "enterprise-architecture"
-last_updated: 2025-01-08
+last_updated: 2026-01-08
 ---
 
 # Innovation Framework KREKI
@@ -412,7 +412,7 @@ KREKI berinovasi melalui kemitraan dengan:
 
 - [Technology Architecture](./technology-architecture.md) - Current technology stack
 - [EA Roadmap](./roadmap.md) - Innovation timeline
-- [IT Governance](../governance/it-governance.md) - Change management
+- [IT Governance](../it-governance.md) - Change management
 
 ---
 

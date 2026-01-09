@@ -84,46 +84,34 @@ This documentation is based on **TOGAF 9.2** (The Open Group Architecture Framew
 docs/
 ├── README.md                          # This file
 ├── index.md                           # Main documentation index (Indonesian)
-├── architecture-domains/              # EA domain subdocuments
-│   ├── index.md
-│   ├── business-architecture.md
-│   ├── data-architecture.md
-│   ├── application-architecture.md
-│   ├── technology-architecture.md
-│   ├── security-architecture.md
-│   ├── integration-architecture.md
-│   ├── ea-governance.md
-│   ├── risk-management.md
-│   ├── roadmap.md
-│   └── innovation-framework.md
+├── business-architecture.md           # Business Architecture
+├── data-architecture.md               # Data Architecture
+├── application-architecture.md        # Application Architecture
+├── technology-architecture.md         # Technology Architecture
+├── security-architecture.md           # Security Architecture
+├── integration-architecture.md        # Integration Architecture
+├── ea-governance.md                   # EA Governance
+├── risk-management.md                 # Risk Management
+├── roadmap.md                         # EA Roadmap
+├── innovation-framework.md            # Innovation Framework
+├── it-governance.md                   # IT Governance
+├── incident-management.md             # Incident Management
+├── emergency-playbook.md              # Emergency Playbook
+├── sla-slo.md                         # SLA/SLO Definitions
+├── stakeholder-integration.md         # Stakeholder Integration
+├── system-architecture.md             # System Architecture
+├── microservices-design.md            # Microservices Design
+├── api-reference.md                   # API Reference
+├── accessibility-strategy.md          # Accessibility Strategy
+├── organization.md                    # Organization Structure
+├── volunteer-program.md               # Volunteer Program
+├── sustainability.md                  # Sustainability
+├── contact.md                         # Contact Information
+├── contribution-guide.md              # Contribution Guide
+├── code-review-standards.md           # Code Review Standards
+├── handbook.md                        # Engineering Handbook
 ├── compliance/                        # Compliance documentation (planned)
-├── patterns/                          # Architecture patterns (planned)
-├── business-architecture.md           # Business capabilities & organization
-├── data-architecture.md               # Data domains & governance
-├── application-architecture.md        # Application portfolio
-├── technology-architecture.md         # Technology stack & standards
-├── security-architecture.md           # Security framework
-├── integration-architecture.md        # Integration patterns
-├── ea-governance.md                   # EA governance & RFC process
-├── it-governance.md                   # IT governance structure
-├── risk-management.md                 # Risk management framework
-├── incident-management.md             # Incident response procedures
-├── emergency-playbook.md              # Emergency operations
-├── roadmap.md                         # Strategic roadmap
-├── innovation-framework.md            # Technology radar
-├── stakeholder-integration.md         # Stakeholder management
-├── system-architecture.md             # Overall system design
-├── microservices-design.md            # Microservices patterns
-├── api-reference.md                   # API specifications
-├── accessibility-strategy.md          # Accessibility standards
-├── sla-slo.md                         # Service level definitions
-├── organization.md                    # Organizational structure
-├── volunteer-program.md               # Volunteer framework
-├── sustainability.md                  # Sustainability model
-├── contact.md                         # Contact information
-├── contribution-guide.md              # Contribution guidelines
-├── code-review-standards.md           # Code review process
-└── handbook.md                        # Engineering handbook
+└── patterns/                          # Architecture patterns (planned)
 ```
 
 ---
@@ -289,10 +277,10 @@ All documents are version-controlled in this repository. Document versions follo
 | Repository | Purpose |
 |------------|---------|
 | [ea-standards](../) | This repository - EA framework |
-| [api-specifications](https://github.com/kreki-indonesia/api-specifications) | OpenAPI specifications |
-| [fhir-profiles](https://github.com/kreki-indonesia/fhir-profiles) | FHIR implementation guides |
-| [security-framework](https://github.com/kreki-indonesia/security-framework) | Security standards |
-| [certification-framework](https://github.com/kreki-indonesia/certification-framework) | Certification programs |
+| [api-specifications](https://github.com/KREKI-indonesia/api-specifications) | OpenAPI specifications |
+| [fhir-profiles](https://github.com/KREKI-indonesia/fhir-profiles) | FHIR implementation guides |
+| [security-framework](https://github.com/KREKI-indonesia/security-framework) | Security standards |
+| [certification-framework](https://github.com/KREKI-indonesia/certification-framework) | Certification programs |
 
 ### External References
 
@@ -320,9 +308,9 @@ This documentation is open for community contributions. To contribute:
 
 ### For Standards Adoption
 
-- **Email:** dev-support@kreki.or.id
-- **GitHub:** https://github.com/kreki-indonesia
-- **Website:** https://kreki.id
+- **Email:** dev-support@KREKI.or.id
+- **GitHub:** https://github.com/KREKI-indonesia
+- **Website:** https://KREKI.id
 
 ### For Technical Questions
 
@@ -332,7 +320,7 @@ This documentation is open for community contributions. To contribute:
 
 ### For Security Issues
 
-- **Email:** security@kreki.or.id
+- **Email:** security@KREKI.or.id
 - **PGP Key:** Available on request
 
 ---

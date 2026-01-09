@@ -2,7 +2,7 @@
 title: "Manajemen Risiko KREKI"
 description: "Enterprise risk register dan strategi mitigasi risiko"
 category: "enterprise-architecture"
-last_updated: 2025-01-09
+last_updated: 2026-01-09
 ---
 
 # Manajemen Risiko KREKI
@@ -425,11 +425,11 @@ flowchart LR
 
 ## Related Documentation
 
-- [IT Governance](../governance/it-governance.md) - Governance structure dan RACI matrix
+- [IT Governance](../it-governance.md) - Governance structure dan RACI matrix
 - [Security Architecture](./security-architecture.md) - Security domains dan controls
 - [EA Governance](./ea-governance.md) - Tata kelola Enterprise Architecture
-- [Emergency Playbook](../governance/emergency-playbook.md) - Operational workflows
-- [Incident Management](../governance/incident-management.md) - Insiden response procedures
+- [Emergency Playbook](../emergency-playbook.md) - Operational workflows
+- [Incident Management](../incident-management.md) - Insiden response procedures
 
 ---
 

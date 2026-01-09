@@ -53,22 +53,22 @@ Informasi organisasi, kontak, dan program KREKI.
 
 Panduan pengguna untuk aplikasi dan layanan KREKI.
 
-- [Panduan HELP 119](https://github.com/kreki-indonesia/docs-portal/blob/main/help-119-guide.md) - Panduan lengkap penggunaan aplikasi HELP 119 untuk masyarakat dan relawan
+- [Panduan HELP 119](https://github.com/KREKI-indonesia/docs-portal/blob/main/help-119-guide.md) - Panduan lengkap penggunaan aplikasi HELP 119 untuk masyarakat dan relawan
 
 ###  Enterprise Architecture
 
 Enterprise Architecture (EA) framework sebagai "rumah tumbuh" untuk ekosistem digital KREKI.
 
-- [EA Overview](architecture-domains/index.md) - Pengantar Enterprise Architecture KREKI
-- [Business Architecture](architecture-domains/business-architecture.md) - Kapabilitas bisnis, value streams, stakeholder
-- [Data Architecture](architecture-domains/data-architecture.md) - Data domains, flows, governance
-- [Application Architecture](architecture-domains/application-architecture.md) - Portfolio aplikasi dan lifecycle
-- [Technology Architecture](architecture-domains/technology-architecture.md) - Technology stack dan standards
-- [Security Architecture](architecture-domains/security-architecture.md) - Security domains dan controls
-- [Integration Architecture](architecture-domains/integration-architecture.md) - Integration patterns dan standards
-- [Innovation Framework](architecture-domains/innovation-framework.md) - Technology radar dan emerging tech
-- [EA Governance](architecture-domains/ea-governance.md) - Tata kelola EA dan update cycle
-- [EA Roadmap](architecture-domains/roadmap.md) - Peta jalan evolusi EA
+- [EA Overview](#enterprise-architecture) - Dokumentasi EA di direktori docs ini
+- [Business Architecture](business-architecture.md) - Kapabilitas bisnis, value streams, stakeholder
+- [Data Architecture](data-architecture.md) - Data domains, flows, governance
+- [Application Architecture](application-architecture.md) - Portfolio aplikasi dan lifecycle
+- [Technology Architecture](technology-architecture.md) - Technology stack dan standards
+- [Security Architecture](security-architecture.md) - Security domains dan controls
+- [Integration Architecture](integration-architecture.md) - Integration patterns dan standards
+- [Innovation Framework](innovation-framework.md) - Technology radar dan emerging tech
+- [EA Governance](ea-governance.md) - Tata kelola EA dan update cycle
+- [EA Roadmap](roadmap.md) - Peta jalan evolusi EA
 
 ###  Engineering
 
@@ -87,17 +87,15 @@ ea-standards/
 └── docs/                          # Dokumentasi utama
     ├── README.md                  # Documentation overview
     ├── index.md                   # Index halaman ini
-    ├── architecture-domains/      # Enterprise Architecture domains
-    │   ├── index.md               # EA overview
-    │   ├── business-architecture.md
-    │   ├── data-architecture.md
-    │   ├── application-architecture.md
-    │   ├── technology-architecture.md
-    │   ├── security-architecture.md
-    │   ├── integration-architecture.md
-    │   ├── ea-governance.md
-    │   ├── roadmap.md
-    │   └── innovation-framework.md
+    ├── business-architecture.md   # Business Architecture
+    ├── data-architecture.md       # Data Architecture
+    ├── application-architecture.md # Application Architecture
+    ├── technology-architecture.md # Technology Architecture
+    ├── security-architecture.md   # Security Architecture
+    ├── integration-architecture.md # Integration Architecture
+    ├── ea-governance.md           # EA Governance
+    ├── roadmap.md                 # EA Roadmap
+    ├── innovation-framework.md    # Innovation Framework
     ├── compliance/                # Compliance documentation (planned)
     ├── patterns/                  # Architecture patterns (planned)
     └── [various docs].md          # Individual documentation files
@@ -116,10 +114,10 @@ Dokumentasi ini bersifat open dan kolaboratif. Untuk berkontribusi:
 
 Untuk pertanyaan atau dukungan:
 
-- **Email:** it-support@kreki.or.id
-- **Security Issues:** security@kreki.or.id
-- **General:** sekretariat.kreki@gmail.com
+- **Email:** it-support@KREKI.or.id
+- **Security Issues:** security@KREKI.or.id
+- **General:** sekretariat.KREKI@gmail.com
 
 ---
 
-*Terdapat di [kreki.id](https://kreki.id) | [GitHub](https://github.com/kreki-indonesia)*
+*Terdapat di [KREKI.id](https://KREKI.id) | [GitHub](https://github.com/KREKI-indonesia)*

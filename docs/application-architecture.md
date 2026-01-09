@@ -2,7 +2,7 @@
 title: "Application Architecture KREKI"
 description: "Portfolio aplikasi, lifecycle, dan integrasi KREKI"
 category: "enterprise-architecture"
-last_updated: 2025-01-08
+last_updated: 2026-01-08
 ---
 
 # Application Architecture KREKI
@@ -478,9 +478,9 @@ Q2 2026: iOS app launch
 
 ## Related Documentation
 
-- [Microservices Design](../architecture/microservices-design.md) - Detail microservices
-- [System Architecture](../architecture/system-architecture.md) - Technical architecture
-- [API Reference](../architecture/api-reference.md) - API documentation
+- [Microservices Design](../microservices-design.md) - Detail microservices
+- [System Architecture](../system-architecture.md) - Technical architecture
+- [API Reference](../api-reference.md) - API documentation
 - [Integration Architecture](./integration-architecture.md) - Integration patterns
 
 ---

@@ -2,7 +2,7 @@
 title: "Technology Architecture KREKI"
 description: "Technology reference model, standards, dan radar KREKI"
 category: "enterprise-architecture"
-last_updated: 2025-01-08
+last_updated: 2026-01-08
 ---
 
 # Technology Architecture KREKI
@@ -459,8 +459,8 @@ Untuk mengusulkan teknologi baru:
 
 ## Related Documentation
 
-- [System Architecture](../architecture/system-architecture.md) - Technical architecture
-- [Microservices Design](../architecture/microservices-design.md) - Service specifications
+- [System Architecture](../system-architecture.md) - Technical architecture
+- [Microservices Design](../microservices-design.md) - Service specifications
 - [Engineering Handbook](../../engineering/handbook.md) - Development practices
 
 ---

@@ -2,7 +2,7 @@
 title: "Profil Organisasi"
 description: "Identitas legal, nilai inti, dan program KREKI"
 category: "about"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # Profil Organisasi KREKI
@@ -19,9 +19,9 @@ last_updated: 2025-01-07
 | **Legalitas** | Akta Notaris No. 55 (5 Desember 2018) |
 | **NPWP** | 90.051.673.3-031.000 |
 | **Ketua Umum** | Dr. dr. Supriyantoro, Sp.P, MARS |
-| **Website** | [https://kreki.id](https://kreki.id) |
+| **Website** | [https://KREKI.id](https://KREKI.id) |
 | **Hotline** | 08888-119-119 (Ambulans & Gawat Darurat) |
-| **Email** | sekretariat.kreki@gmail.com |
+| **Email** | sekretariat.KREKI@gmail.com |
 
 ## Nilai Inti (Core Values)
 
@@ -57,12 +57,12 @@ Inovasi teknologi inti KREKI yang berfungsi sebagai platform respon darurat teri
 
 ###  KREKI Learning Management System (LMS)
 
-- **URL:** [lms.kreki.id](https://lms.kreki.id)
+- **URL:** [lms.KREKI.id](https://lms.KREKI.id)
 - Platform edukasi digital untuk pelatihan Bantuan Hidup Dasar (BHD) dan pendidikan berkelanjutan bagi relawan.
 
 ###  Governance Platform
 
-- **URL:** [govern.kreki.id](https://govern.kreki.id)
+- **URL:** [govern.KREKI.id](https://govern.KREKI.id)
 - Portal transparansi untuk tata kelola organisasi dan akuntabilitas operasional.
 
 ## Program Pelatihan & Kapasitas
@@ -94,8 +94,8 @@ KREKI bekerja secara kolaboratif lintas sektor:
 ## Dokumen Terkait
 
 - [Contact & Partners](./contact.md) - Informasi kontak lengkap dan mitra
-- [Architecture Documentation](../architecture/) - Sistem informasi KREKI
-- [Contributing Guide](../contributing/) - Cara berkontribusi
+- [Architecture Documentation](../) - Sistem informasi KREKI
+- [Contributing Guide](../) - Cara berkontribusi
 
 ---
 

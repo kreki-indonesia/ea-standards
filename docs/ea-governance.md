@@ -2,7 +2,7 @@
 title: "EA Governance KREKI"
 description: "Tata kelola Enterprise Architecture dan siklus pembaruan"
 category: "enterprise-architecture"
-last_updated: 2025-01-08
+last_updated: 2026-01-08
 ---
 
 # EA Governance KREKI
@@ -324,7 +324,7 @@ docs/ea/
 ### 6.3 Feedback Channels
 
 **Internal Feedback:**
-- EA feedback email: ea-feedback@kreki.or.id
+- EA feedback email: ea-feedback@KREKI.or.id
 - GitHub issues (for documentation)
 - Slack channel (#ea-discussions)
 - Quarterly survey (all staff)
@@ -435,7 +435,7 @@ KREKI EA maturity progression:
 ## Related Documentation
 
 - [EA Roadmap](./roadmap.md) - EA evolution timeline
-- [IT Governance](../governance/it-governance.md) - IT governance framework
+- [IT Governance](../it-governance.md) - IT governance framework
 - [Technology Architecture](./technology-architecture.md) - Technology standards
 
 ---

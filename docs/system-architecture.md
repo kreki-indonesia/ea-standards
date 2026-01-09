@@ -2,7 +2,7 @@
 title: "System Architecture"
 description: "Technical design of KREKI microservices architecture with technology stack"
 category: "architecture"
-last_updated: 2025-01-07
+last_updated: 2026-01-07
 ---
 
 # System Architecture
@@ -134,8 +134,8 @@ For KREKI, we recommend a **Hybrid** approach:
 ## Related Documentation
 
 - [Microservices Design](./microservices-design.md) - Detailed service specifications
-- [Governance Framework](../governance/it-governance.md) - SLA and availability requirements
-- [Contributing Guide](../contributing/contribution-guide.md) - Development guidelines
+- [Governance Framework](../it-governance.md) - SLA and availability requirements
+- [Contributing Guide](../contribution-guide.md) - Development guidelines
 
 ---
 
