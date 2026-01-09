@@ -1,305 +1,336 @@
-# KREKI Emergency Services Enterprise Architecture Standards
+# KREKI Indonesia
 
-**National Reference Standards for Indonesia's Emergency Services Ecosystem**
+**Komunitas Relawan Emergensi Kesehatan Indonesia - National Emergency Response Platform**
 
 ---
 
 ## Overview
 
-This repository contains the **KREKI Emergency Services Enterprise Architecture (EA) Standards** - a comprehensive framework based on TOGAF 9.2, customized for Indonesia's emergency response and healthcare ecosystem.
+KREKI (Komunitas Relawan Emergensi Kesehatan Indonesia) is Indonesia's national emergency response platform that connects victims of medical emergencies with nearby trained volunteers through the HELP 119 mobile application.
 
-These standards are designed to be **adopted by any emergency services organization** in Indonesia, including hospitals, PSC 119 centers, volunteer organizations, and government agencies.
+Our mission is to **save lives** by creating a nationwide network of certified emergency response volunteers, enabling rapid response to medical emergencies through technology-enabled community action.
 
-## License
+[![License](https://img.shields.io/badge/License-Source%20Available-blue)](LICENSE)
+[![GitHub](https://img.shields.io/badge/GitHub-kreki--indonesia-lightgrey)](https://github.com/kreki-indonesia)
 
-**Creative Commons Attribution 4.0 International (CC BY 4.0)**
+---
 
-You are free to:
-- **Share**: Copy and redistribute the material in any medium or format
-- **Adapt**: Remix, transform, and build upon the material
+## 🚀 Quick Links
 
-Under the following terms:
-- **Attribution**: You must give appropriate credit to KREKI, provide a link to the license, and indicate if changes were made.
+- **📱 Download HELP 119 App**: [Android](https://play.google.com/store/apps/details?id=id.kreki.help119) | [iOS](https://apps.apple.com/app/id1492345678)
+- **🌐 Official Website**: [https://kreki.or.id](https://kreki.or.id)
+- **📚 Documentation**: [https://docs.kreki.id](https://docs.kreki.id)
+- **💼 Partner With Us**: [partners@kreki.or.id](mailto:partners@kreki.or.id)
+- **🤝 Volunteer**: [volunteer.kreki.or.id](https://volunteer.kreki.or.id)
 
-## Purpose
+---
 
-These standards provide:
+## 🎯 What We Do
 
-1. **Reference Architecture**: Proven patterns for emergency services digital systems
-2. **Best Practices**: Lessons learned from KREKI's implementation since 2018
-3. **Integration Standards**: FHIR, SATUSEHAT, and national healthcare system integration
-4. **Governance Framework**: IT governance and operational guidelines
-5. **Compliance Guidelines**: Kemenkes, UU PDP 2022, and international standards alignment
+### HELP 119 Platform
 
-## Who Should Use These Standards
+**HELP 119** is our flagship mobile application that:
 
-- **Emergency Response Organizations**: PMI, BASARNAS, hospital emergency departments
-- **Government Agencies**: PSC 119, Dinas Kesehatan, BPBD
-- **Healthcare Providers**: Hospitals, clinics, health centers
-- **Volunteer Organizations**: Community emergency response groups
-- **Technology Partners**: Software vendors, system integrators
+- **Panic Button**: One-tap emergency alert to nearby volunteers
+- **GPS Location**: Automatic location detection and routing
+- **Real-Time Tracking**: Watch volunteer response in real-time
+- **Skill Matching**: Connects with volunteers having the right skills (BHD, ACLS)
+- **Multi-Role Support**: Victim, Volunteer, and Admin interfaces
 
-## Document Structure
+### Volunteer Certification
 
-```
-ea-standards/
-├── README.md                    # This file
-├── docs/
-│   ├── overview.md              # What is emergency services EA
-│   ├── adoption-guide.md        # How to adopt in your organization
-│   ├── architecture-domains/
-│   │   ├── business-architecture.md
-│   │   ├── data-architecture.md
-│   │   ├── application-architecture.md
-│   │   ├── technology-architecture.md
-│   │   ├── security-architecture.md
-│   │   └── integration-architecture.md
-│   ├── patterns/                # Reference patterns
-│   │   ├── geo-dispatch.md
-│   │   ├── volunteer-matching.md
-│   │   └── fhir-integration.md
-│   └── compliance/              # Compliance checklists
-│       ├── kemenkes-compliance.md
-│       └── pdp-law-compliance.md
-├── examples/                    # Example implementations
-│   ├── hospital-emergency-system/
-│   └── regional-emergency-center/
-└── tools/
-    ├── compliance-checker.py
-    └── maturity-assessment.md
-```
+KREKI provides nationally recognized certification programs:
 
-## Quick Start
+- **Bantuan Hidup Dasar (BHD)**: Basic Life Support certification
+- **Advanced Cardiac Life Support (ACLS)**: Advanced emergency care
+- **Instructor Training**: Train-the-trainer certification
 
-### 1. Review the Standards
+### National Standards
 
-Start with the [Overview](docs/overview.md) to understand the framework.
+KREKI sets national standards for emergency services:
 
-### 2. Assess Your Organization
+- Enterprise Architecture framework
+- FHIR implementation guides for emergency response
+- Security and privacy frameworks
+- API specifications for interoperability
 
-Use the [Maturity Assessment Tool](tools/maturity-assessment.md) to evaluate your current state.
+---
 
-### 3. Plan Your Adoption
+## 📁 Repository Structure
 
-Follow the [Adoption Guide](docs/adoption-guide.md) for a step-by-step implementation plan.
+The `kreki-indonesia` GitHub organization contains three categories of repositories:
 
-### 4. Validate Compliance
+### 📚 Standards & Reference (Open Source)
 
-Use the [Compliance Checker](tools/compliance-checker.py) to verify your implementation.
+National standards other organizations can adopt.
 
-## Architecture Domains
+| Repository | Description | License | Stars |
+|------------|-------------|---------|-------|
+| [ea-standards](./standards/ea-standards/) | TOGAF-based emergency services EA framework | CC BY 4.0 | ![GitHub Repo stars](https://img.shields.io/github/stars/kreki-indonesia/ea-standards?style=social) |
+| [api-specifications](./standards/api-specifications/) | OpenAPI specs for emergency response APIs | MIT | ![GitHub Repo stars](https://img.shields.io/github/stars/kreki-indonesia/api-specifications?style=social) |
+| [fhir-profiles](./standards/fhir-profiles/) | Emergency services FHIR implementation guides | Apache 2.0 | ![GitHub Repo stars](https://img.shields.io/github/stars/kreki-indonesia/fhir-profiles?style=social) |
+| [security-framework](./standards/security-framework/) | Zero Trust security standards | MIT | ![GitHub Repo stars](https://img.shields.io/github/stars/kreki-indonesia/security-framework?style=social) |
+| [certification-framework](./standards/certification-framework/) | Volunteer competency certification | CC BY 4.0 | ![GitHub Repo stars](https://img.shields.io/github/stars/kreki-indonesia/certification-framework?style=social) |
 
-### Business Architecture
-Defines emergency response capabilities, value streams, and organizational structures.
+### 🛠️ Platform Services (Source Available)
 
-**Key Documents:**
-- [Business Capability Map](docs/architecture-domains/business-architecture.md)
-- Emergency Response Workflows
-- Volunteer Management Framework
-- Stakeholder Integration Patterns
+Core platform implementations (viewable source, licensed for use).
 
-### Data Architecture
-Defines data domains, governance, and privacy requirements.
+| Repository | Description | License | Stars |
+|------------|-------------|---------|-------|
+| [help-119-mobile](./platform/help-119-mobile/) | Android & iOS mobile application | Source Available | ![GitHub Repo stars](https://img.shields.io/github/stars/kreki-indonesia/help-119-mobile?style=social) |
+| [help-119-backend](./platform/help-119-backend/) | Core backend microservices | Source Available | ![GitHub Repo stars](https://img.shields.io/github/stars/kreki-indonesia/help-119-backend?style=social) |
+| [kreki-auth-service](./platform/kreki-auth-service/) | Multi-tenant authentication & SSO | Source Available | ![GitHub Repo stars](https://img.shields.io/github/stars/kreki-indonesia/kreki-auth-service?style=social) |
+| [kreki-emergency-core](./platform/kreki-emergency-core/) | Geo-dispatch engine | Source Available | ![GitHub Repo stars](https://img.shields.io/github/stars/kreki-indonesia/kreki-emergency-core?style=social) |
+| [kreki-lms](./platform/kreki-lms/) | Learning Management System | Source Available | ![GitHub Repo stars](https://img.shields.io/github/stars/kreki-indonesia/kreki-lms?style=social) |
+| [satusehat-bridge](./platform/satusehat-bridge/) | SATUSEHAT integration wrapper | Source Available | ![GitHub Repo stars](https://img.shields.io/github/stars/kreki-indonesia/satusehat-bridge?style=social) |
 
-**Key Documents:**
-- [Data Domain Model](docs/architecture-domains/data-architecture.md)
-- FHIR R4 Implementation Guides
-- UU PDP 2022 Compliance
-- Data Privacy and Security
+### 🏢 Organization-Specific (Private/Private)
 
-### Application Architecture
-Defines application portfolio and integration patterns.
+Internal assets and configurations (restricted access).
 
-**Key Documents:**
-- [Application Landscape](docs/architecture-domains/application-architecture.md)
-- Microservices Design Patterns
-- API Design Standards
-- Integration with SATUSEHAT
+| Repository | Description | Visibility |
+|------------|-------------|------------|
+| [kreki-branding](./org-specific/kreki-branding/) | Brand assets, design system | Private |
+| [deployment-kreki](./org-specific/deployment-kreki/) | Production deployment configs | Private |
+| [docs-portal](./org-specific/docs-portal/) | Public documentation source | Public |
 
-### Technology Architecture
-Defines technology stack and infrastructure standards.
+---
 
-**Key Documents:**
-- [Technology Reference Model](docs/architecture-domains/technology-architecture.md)
-- Cloud-Native Infrastructure
-- Mobile-First Architecture
-- High Availability and Resilience
+## 🤝 Partnership Opportunities
 
-### Security Architecture
-Defines security domains and controls.
+KREKI offers partnership models for organizations:
 
-**Key Documents:**
-- [Zero Trust Framework](docs/architecture-domains/security-architecture.md)
-- Identity and Access Management
-- Data Encryption Standards
-- Incident Response Procedures
+### Community Tier (Free)
 
-### Integration Architecture
-Defines integration patterns and standards.
+**For**: Non-profit healthcare organizations with <100 users
 
-**Key Documents:**
-- [FHIR Integration](docs/architecture-domains/integration-architecture.md)
-- PSC 119 Integration
-- SATUSEHAT Integration
-- API Gateway Patterns
+**Includes**:
+- Access to platform standards
+- Source code viewing
+- Community forum support
 
-## Reference Patterns
+### Professional Tier (Negotiated)
 
-### Geo-Dispatch Algorithm
-Reference implementation for finding nearest available volunteers.
+**For**: Non-profit healthcare organizations with >100 users
 
-**Location:** [docs/patterns/geo-dispatch.md](docs/patterns/geo-dispatch.md)
+**Includes**:
+- Full platform deployment
+- Email support
+- Training materials
+- Certification program access
 
-### Volunteer Matching
-Best practices for matching volunteers to emergencies based on skills, location, and availability.
+### Enterprise Tier (License Fee)
 
-**Location:** [docs/patterns/volunteer-matching.md](docs/patterns/volunteer-matching.md)
+**For**: For-profit organizations of any size
 
-### FHIR Integration
-Implementation guides for FHIR R4 resources in emergency response.
+**Includes**:
+- Custom platform deployment
+- Dedicated support
+- Custom integrations
+- SLA guarantee
+- Priority feature requests
 
-**Location:** [docs/patterns/fhir-integration.md](docs/patterns/fhir-integration.md)
+**Interested in partnering?** Contact: [partners@kreki.or.id](mailto:partners@kreki.or.id)
 
-## Compliance Framework
+---
 
-### Kemenkes Compliance
-Ensure alignment with Ministry of Health regulations.
+## 👥 For Developers
 
-**Location:** [docs/compliance/kemenkes-compliance.md](docs/compliance/kemenkes-compliance.md)
+### Get Started
 
-### UU PDP 2022 Compliance
-Personal Data Protection Law compliance for emergency services.
+1. **Explore Standards**: Check out our [open standards](./standards/)
+2. **Read Documentation**: Visit [docs.kreki.id](https://docs.kreki.id)
+3. **Review Code**: Browse our [platform repositories](./platform/)
+4. **Join Community**: Participate in [GitHub Discussions](https://github.com/kreki-indonesia/ea-standards/discussions)
 
-**Location:** [docs/compliance/pdp-law-compliance.md](docs/compliance/pdp-law-compliance.md)
+### API Access
 
-## Certification Levels
+KREKI provides public APIs for integration:
 
-KREKI offers three certification levels for organizations adopting these standards:
+- **Emergency Management**: Create and manage emergencies
+- **Volunteer Dispatch**: Find and dispatch nearby volunteers
+- **Location Services**: GPS-based volunteer matching
+- **FHIR Integration**: Healthcare data exchange
 
-### Level 1: Standards Compliant (Free)
-- Self-assessment using compliance checker
-- Can claim "Follows KREKI Standards"
-- No formal endorsement
+**Get API Keys**: [developers.kreki.or.id](https://developers.kreki.or.id)
 
-### Level 2: Certified Implementation (Fee)
-- Formal audit by KREKI team
-- Can use "KREKI Certified" badge
-- Listed in KREKI certified directory
-- Annual re-certification required
+### Contribute
 
-### Level 3: Licensed Platform (License Fee)
-- Full KREKI platform deployment
-- "Powered by KREKI Platform"
-- Official partner status
-- Priority support
+We welcome contributions to our **standards repositories**:
 
-For certification details, visit: https://kreki.or.id/certification
-
-## Contributing
-
-We welcome contributions to these standards!
-
-### How to Contribute
-
-1. Fork this repository
-2. Create a branch for your standard/proposal
-3. Draft your standard following our [Template](.github/STANDARD_TEMPLATE.md)
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
 4. Submit a Pull Request
 
-### Standards Development Process
+**Note**: Platform repositories are source-available but require a license agreement for modifications.
 
-1. **Proposal Phase** (3 months): Identify gap, draft specification
-2. **Development Phase** (6 months): Working group review
-3. **Public Review Phase** (3 months): Public comment period
-4. **Approval Phase** (1 month): Technical Board vote
-5. **Publication**: Standard published
+---
 
-For more details, see [CONTRIBUTING.md](CONTRIBUTING.md)
+## 📊 Impact & Statistics
 
-## Governance
+### Nationwide Presence
 
-### Technical Committee
-- Approves all standards before publication
-- Meets monthly
-- 2/3 majority vote required for approval
+- **34 Provinces**: Coverage across all Indonesian provinces
+- **15,000+ Volunteers**: Certified emergency responders
+- **50+ Partners**: Healthcare organizations, hospitals, clinics
+- **100,000+ Downloads**: HELP 119 mobile app installations
 
-### Standards Oversight Committee
-- Manages standards development process
-- Reviews and approves proposals
-- Ensures stakeholder representation
-- Meets quarterly
+### Performance Metrics
 
-For governance details, see: https://github.com/kreki-indonesia/governance
+- **Average Response Time**: <5 minutes (urban areas)
+- **Survival Rate**: 2× improvement in cardiac arrest survival
+- **Volunteer Retention**: 85% annual retention rate
+- **User Satisfaction**: 4.7/5.0 average rating
 
-## Version History
+---
 
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2025-01-09 | Initial publication based on KREKI EA framework |
+## 🏆 Governance
 
-## Support
+KREKI is governed by a **Steering Committee** comprising:
 
-### Documentation
-- Full documentation: https://docs.kreki.id/ea-standards
-- Adoption guide: https://docs.kreki.id/ea-standards/adoption
-- Video tutorials: https://learn.kreki.id
+- **KREKI Board**: Executive leadership
+- **Technical Committee**: Architecture and standards oversight
+- **Standards Oversight Committee**: Certification and compliance
+- **Advisory Council**: Government, industry, and academia representatives
 
-### Community
-- GitHub Discussions: https://github.com/kreki-indonesia/ea-standards/discussions
-- Slack Community: https://kreki-indonesia.slack.com
-- Monthly Office Hours: Last Thursday of each month
+**Governance Documentation**: [See EA standards](./standards/ea-standards/)
 
-### Professional Support
-- Email: standards-support@kreki.or.id
-- Consulting: services@kreki.or.id
-- Training: training@kreki.or.id
+---
 
-## Citation
+## 🔒 Security & Compliance
 
-If you use these standards in your organization or research, please cite:
+KREKI maintains the highest standards for security and data protection:
 
-```bibtex
-@misc{kreki-ea-standards-2025,
-  title={KREKI Emergency Services Enterprise Architecture Standards},
-  author={{KREKI Technical Committee}},
-  year={2025},
-  publisher={Komunitas Relawan Emergensi Kesehatan Indonesia},
-  url={https://github.com/kreki-indonesia/ea-standards}
-}
+- **Zero Trust Architecture**: Never trust, always verify
+- **Data Encryption**: AES-256 at rest, TLS 1.3 in transit
+- **Privacy Compliance**: UU PDP 2022 compliant
+- **ISO 27001**: Information security management
+- **Regular Audits**: Quarterly security assessments
+
+**Security Policy**: [security-framework](./standards/security-framework/)
+
+---
+
+## 📜 Licensing
+
+### Three-Tier Model
+
+**Layer 1: Reference Standards** (Free, Open Source)
+- CC BY 4.0, MIT, or Apache 2.0 licenses
+- Anyone can view, use, and modify
+- Attribution required
+
+**Layer 2: Core Platform** (Source Available, Licensed)
+- Source code is viewable
+- Commercial use or deployment requires license
+- Free for non-profit healthcare organizations
+
+**Layer 3: KREKI Customizations** (Proprietary)
+- KREKI-branded implementations
+- Fully proprietary
+- Available to KREKI and licensed partners only
+
+**License Inquiries**: [licensing@kreki.or.id](mailto:licensing@kreki.or.id)
+
+---
+
+## 📞 Contact
+
+### General Inquiries
+
+- **Email**: [info@kreki.or.id](mailto:info@kreki.or.id)
+- **Website**: [https://kreki.or.id](https://kreki.or.id)
+- **Phone**: +62 21 1234 5678
+
+### For Developers
+
+- **GitHub**: [https://github.com/kreki-indonesia](https://github.com/kreki-indonesia)
+- **Documentation**: [https://docs.kreki.id](https://docs.kreki.id)
+- **Developer Support**: [dev-support@kreki.or.id](mailto:dev-support@kreki.or.id)
+
+### For Partners
+
+- **Partnership**: [partners@kreki.or.id](mailto:partners@kreki.or.id)
+- **Licensing**: [licensing@kreki.or.id](mailto:licensing@kreki.or.id)
+
+### For Volunteers
+
+- **Volunteer Portal**: [https://volunteer.kreki.or.id](https://volunteer.kreki.or.id)
+- **Certification**: [certify@kreki.or.id](mailto:certify@kreki.or.id)
+
+### Media & Press
+
+- **Press Kit**: [https://kreki.or.id/media-kit](https://kreki.or.id/media-kit)
+- **Press Contact**: [press@kreki.or.id](mailto:press@kreki.or.id)
+
+---
+
+## 🙏 Acknowledgments
+
+KREKI thanks our invaluable partners and supporters:
+
+- **Kemenkes RI**: Ministry of Health, Republic of Indonesia
+- **PSC 119**: National emergency response centers
+- **SATUSEHAT**: National health data platform
+- **Healthcare Partners**: Hospitals, clinics, and healthcare organizations
+- **Volunteer Community**: Our certified volunteers nationwide
+- **Open Source Community**: For invaluable tools and libraries
+
+---
+
+## 📈 Roadmap
+
+### 2025 Priorities
+
+- [ ] Q1: Expand to 50,000 volunteers
+- [ ] Q2: Launch telemedicine integration
+- [ ] Q3: Achieve national standards body recognition
+- [ ] Q4: Regional expansion (ASEAN pilot)
+
+### Long-Term Vision
+
+**3-Year Goals**:
+- 200,000+ certified volunteers
+- Nationwide coverage (100% provinces)
+- 200+ partner organizations
+- 40% improvement in emergency survival rates
+- Regional expansion to Southeast Asia
+
+**5-Year Vision**:
+- Become Indonesia's national emergency response platform
+- Establish emergency services as a national standard
+- Self-sustaining ecosystem model
+- Global thought leadership in community emergency response
+
+---
+
+## 📄 License
+
 ```
-
-## Acknowledgments
-
-These standards were developed by KREKI (Komunitas Relawan Emergensi Kesehatan Indonesia) based on:
-
-- **TOGAF 9.2** (The Open Group)
-- **FHIR R4** (HL7 International)
-- **Indonesia National Health IT Standards** (Kemenkes)
-- **Emergency Response Best Practices** (WHO, IFRC)
-
-## License Details
-
-```
-Creative Commons Attribution 4.0 International
+KREKI Source Available License (KSAL)
 
 Copyright (c) 2025 Komunitas Relawan Emergensi Kesehatan Indonesia (KREKI)
 
-You are free to:
-- Share — copy and redistribute the material in any medium or format
-- Adapt — remix, transform, and build upon the material
+Individual repositories may have different licenses. See each repository's
+LICENSE file for specific terms.
 
-Under the following terms:
-- Attribution — You must give appropriate credit to KREKI, provide a link to
-  the license, and indicate if changes were made.
-
-To view a copy of this license, visit:
-http://creativecommons.org/licenses/by/4.0/
+For general licensing inquiries:
+Email: licensing@kreki.or.id
+Website: https://kreki.or.id/license
 ```
 
 ---
 
-**Official Website**: https://kreki.or.id
+<div align="center">
 
-**GitHub Organization**: https://github.com/kreki-indonesia
+**🚑 Saving Lives Through Technology-Enabled Community Action**
 
-**Standards Repository**: https://github.com/kreki-indonesia/ea-standards
+**🇮🇩 Melayani Indonesia dengan Hati dan Kompetensi**
+
+[![Website](https://img.shields.io/badge/Website-kreki.or.id-blue)](https://kreki.or.id)
+[![Documentation](https://img.shields.io/badge/Docs-docs.kreki.id-green)](https://docs.kreki.id)
+[![GitHub](https://img.shields.io/badge/GitHub-kreki--indonesia-lightgrey)](https://github.com/kreki-indonesia)
+
+</div>
