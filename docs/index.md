@@ -53,7 +53,7 @@ Informasi organisasi, kontak, dan program KREKI.
 
 Panduan pengguna untuk aplikasi dan layanan KREKI.
 
-- [Panduan HELP 119](https://github.com/KREKI-indonesia/docs-portal/blob/main/help-119-guide.md) - Panduan lengkap penggunaan aplikasi HELP 119 untuk masyarakat dan relawan
+- [Panduan HELP 119](https://github.com/kreki-indonesia/docs-portal/blob/main/help-119-guide.md) - Panduan lengkap penggunaan aplikasi HELP 119 untuk masyarakat dan relawan
 
 ###  Enterprise Architecture
 
@@ -120,4 +120,4 @@ Untuk pertanyaan atau dukungan:
 
 ---
 
-*Terdapat di [KREKI.id](https://KREKI.id) | [GitHub](https://github.com/KREKI-indonesia)*
+*Terdapat di [KREKI.id](https://KREKI.id) | [GitHub](https://github.com/kreki-indonesia)*

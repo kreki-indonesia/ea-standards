@@ -23,7 +23,7 @@ last_updated: 2026-01-07
 |:------|:--------|
 | **IT Support** | it-support@KREKI.or.id |
 | **Security Issues** | security@KREKI.or.id |
-| **GitHub** | [github.com/KREKI](https://github.com/KREKI) |
+| **GitHub** | [https://github.com/kreki-indonesia](https://github.com/kreki-indonesia) |
 
 ## Mitra Strategis
 

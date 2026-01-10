@@ -24,8 +24,8 @@ We use the **Feature Branch Workflow** model:
 ### 1. Clone the assigned service repository
 
 ```bash
-git clone https://github.com/KREKI/kreki-auth-service.git
-cd KREKI-auth-service
+git clone https://github.com/kreki-indonesia/kreki-auth-service.git
+cd kreki-auth-service
 ```
 
 ### 2. Create a new branch from main or development

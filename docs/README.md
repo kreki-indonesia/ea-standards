@@ -277,10 +277,10 @@ All documents are version-controlled in this repository. Document versions follo
 | Repository | Purpose |
 |------------|---------|
 | [ea-standards](../) | This repository - EA framework |
-| [api-specifications](https://github.com/KREKI-indonesia/api-specifications) | OpenAPI specifications |
-| [fhir-profiles](https://github.com/KREKI-indonesia/fhir-profiles) | FHIR implementation guides |
-| [security-framework](https://github.com/KREKI-indonesia/security-framework) | Security standards |
-| [certification-framework](https://github.com/KREKI-indonesia/certification-framework) | Certification programs |
+| [api-specifications](https://github.com/kreki-indonesia/api-specifications) | OpenAPI specifications |
+| [fhir-profiles](https://github.com/kreki-indonesia/fhir-profiles) | FHIR implementation guides |
+| [security-framework](https://github.com/kreki-indonesia/security-framework) | Security standards |
+| [certification-framework](https://github.com/kreki-indonesia/certification-framework) | Certification programs |
 
 ### External References
 
@@ -309,7 +309,7 @@ This documentation is open for community contributions. To contribute:
 ### For Standards Adoption
 
 - **Email:** dev-support@KREKI.or.id
-- **GitHub:** https://github.com/KREKI-indonesia
+- **GitHub:** https://github.com/kreki-indonesia
 - **Website:** https://KREKI.id
 
 ### For Technical Questions
